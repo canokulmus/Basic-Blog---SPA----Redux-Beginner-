@@ -1,0 +1,19 @@
+
+
+npx create-react-app blog
+
+npm install --save redux react-redux axios redux-thunk 
+
+
+async function kullanabilmek için redux-thunk kullanmamız lazım
+
+
+
+***state değiştirmeden manipüle etmek gerekiyor.
+    --Detaylar "Safe State Updates in Reducers" videosunda
+    -- "Lodash" objeden (key:property) silmek için önemli.
+
+
+**Lodash içindeki 'memoize' yapısı
+
+    - fonksiyonları memoize ederek aynı requesti gereksiz fazla şekilde yapmayı engelliyoruz.
