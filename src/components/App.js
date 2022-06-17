@@ -4,9 +4,6 @@ import '../style/App.css'
 
 const App = () => {
 
-    git config --global user.email "you@example.com"
-    git config --global user.name "Your Name"
-
     return (
     <div className="ui container">
        
